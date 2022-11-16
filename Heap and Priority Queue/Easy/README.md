@@ -1,8 +1,8 @@
 # Heapq
 * Priority queue
 * The pop always returns the smallest element
-* We can push on pop in the same time using `heapq.heappushpop(heap, element)`
-* If we use that previous function, the pop will consider the pushed element. If we don't want it to, we can use `heapq.heapreplace(heap, element)`
-* If you want to pop the largest element, there's maxheap. It has the same function names than minheap in this following format : `heapq._func_max` where func can be 'heapify' or 'heappop'.
+* You can push and pop in the same time using `heapq.heappushpop(heap, element)`
+* If you use that heappushpop function, the pop will consider the pushed element (i.e. if it's the smallest, it'll get popped out of the heapq). If you don't want that to happen, you can use `heapq.heapreplace(heap, element)`
+* If you want to pop the largest element, there's maxheap. Its functions : `heapq._func_max` where func can be 'heapify' or 'heappop'.
 ** THIS MAX HEAP IMPLEMENTATION BREAK THE ORDER!**
-* U can use -1 * your list to heapify.
+* You can use instead -1 * your list to heapify.
