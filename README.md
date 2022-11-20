@@ -19,4 +19,5 @@ Problems are grouped following these topics :
 * [Intervals](https://github.com/Fatma-Chaouech/Leetcode/tree/main/Intervals)
 * [Math and Geometry](http://)
 * [Bit Manipulation](http://)
-I added in my personal notes and what I've learned from [Leetcode](https://leetcode.com/problemset/all/)'s discussion section .
+
+I've included my personal notes and what I've learned from [Leetcode](https://leetcode.com/problemset/all/)'s discussion section. Feel free to add your personal touch!
